@@ -35,7 +35,7 @@ int main(int argc, char *const argv[])
   {
     // This will hold the last stock price before - 1 is inputed
     last = stock;
-    // if entry is higher than max (initialized as second entry), then assign entry as max
+    // if entry is higher than max, then assign it as max
     if (stock > max)
       max = stock;
     // if entry is not higher than max, then is it lower than min
@@ -44,7 +44,7 @@ int main(int argc, char *const argv[])
     // Cummulative sum of stock prices
     sum += stock;
 
-    // price change is equal to change1 (initialized as first entry), minus change2 (initialized a second entry)
+    // price change is equal to change1, minus change2 
     change = change1 - change2;
     // cummulative sum of price change squared
     sum_change += change * change;
