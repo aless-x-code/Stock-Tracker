@@ -66,7 +66,7 @@ int main(int argc, char *const argv[])
   fm = sqrt(sum_change / (count - 1));
   avg = sum / count;
 
-  // Buy stock if last entry is lower than avg price AND (either FW is lower than 1/33 of avg OR FM is lower than 1/3 of avg)
+  // Buy stock if last entry is lower than avg price AND (either FW is lower than 1/3 of avg OR FM is lower than 1/3 of avg)
   if (last < avg && ((fw < avg / 3) || (fm < avg / 3)))
     buying_d = "Stock price pattern meets buying criteria";
   // If not, don't buy
