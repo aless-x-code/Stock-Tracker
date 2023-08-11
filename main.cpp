@@ -13,7 +13,7 @@ int main(int argc, char *const argv[])
   string buying_d; // buying descision
 
   // Retrieve first and second stock prices
-  cout << "Enter stock price (enter 1- when finished): ";
+  cout << "Enter stock price (enter -1 when finished): ";
   cin >> stock;
   cout << "Enter stock price (enter -1 when finished): ";
   cin >> second_entry;
