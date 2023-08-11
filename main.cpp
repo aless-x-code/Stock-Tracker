@@ -52,7 +52,7 @@ int main(int argc, char *const argv[])
     change1 = change2;
 
     // enter new stock entry
-    cout << "Enter stock price (enter 1- when finished): ";
+    cout << "Enter stock price (enter -1 when finished): ";
     cin >> stock;
     // copy new entry to change2 for next price change calculation
     change2 = stock;
