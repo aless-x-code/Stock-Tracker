@@ -8,7 +8,8 @@ To calculate average, total sum of stocks will be divided by number of stocks
 
 To calculate fluctuation width, we determine the max and min stock prices, and find their difference
 
-To calculate fluctuation mean, we first determine _change squared_ between all consecutive stock prices (the difference between each stock price and square it), then we accumulate the sum of all _changes squared_, and divide it by the total number of stocks, after that, we once again square the result to get the fluctuation mean <br>
+To calculate fluctuation mean, we first determine _change squared_ between all consecutive stock prices (the difference between each stock price and square it), then we accumulate the sum of all _changes squared_, and divide it by the total number of stocks, after that, we once again square the result to get the fluctuation mean   <br>
+
 **Example** <br>
 stock1 = 10  
 stock2 = 20  
