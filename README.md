@@ -1,8 +1,8 @@
 # Stock-Tracker
-**Summary**
+**Summary** <br>
 This program receives user-inputted monthly stock prices, calculates their average, fluctuation width and mean, and recommends a buying decision if it meets certain criteria
 
-**Stock Input**
+**Stock Input** <br>
 Stock input will be regulated by a sentinel controlled loop (-1)
 
 **Variables** <br>
