@@ -1,6 +1,8 @@
 # Stock-Tracker
+**Summary**
 This program receives user-inputted monthly stock prices, calculates their average, fluctuation width and mean, and recommends a buying decision if it meets certain criteria
 
+**Stock Input**
 Stock input will be regulated by a sentinel controlled loop (-1)
 
 **Variables** <br>
@@ -10,7 +12,7 @@ To calculate fluctuation width, we determine the max and min stock prices, and f
 
 To calculate fluctuation mean, we first determine _change squared_ between all consecutive stock prices (the difference between each stock price and square it), then we accumulate the sum of all _changes squared_, and divide it by the total number of stocks, after that, we once again square the result to get the fluctuation mean   <br>
 
-**Example** <br>
+**Fluctuation Mean Example** <br>
 stock1 = 10  
 stock2 = 20  
 change = 10  
