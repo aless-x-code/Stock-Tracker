@@ -10,7 +10,7 @@ int main(int argc, char *const argv[])
   float min, max;                             // min and max
   float change, change1, change2, sum_change; // price change variables
   float count = 1;
-  string buying_d; // buying descision
+  string buying_d;                            // buying descision
 
   // Retrieve first and second stock prices
   cout << "Enter stock price (enter -1 when finished): ";
